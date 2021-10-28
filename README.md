@@ -48,7 +48,7 @@ C:\Program Files\Java\{jdk_v}\bin
 C:\Gradle\gradle-7.0.2\bin
 ```
 
-- Create folder Gradle in C:\. 
+- Create folder Gradle in (C:). 
 
 Download gradle here https://gradle.org/next-steps/?version=7.0.2&format=all and extract it into the Gradle's folder.
 
