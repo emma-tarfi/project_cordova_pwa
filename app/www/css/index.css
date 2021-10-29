@@ -23,9 +23,7 @@
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
+    background-color:#ebebeb!important;
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size:12px;
     height:100vh;
@@ -107,4 +105,36 @@ h1 {
     body {
         background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
     }
+}
+
+#title-list h1 {
+    padding: 20px;
+}
+
+#list .card {
+    display: inline;
+    margin-bottom: 20px;
+    max-height: 600px;
+}
+
+#list .card-body {
+    max-height: 80px;
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #c17503;
+    -webkit-box-shadow: 0px 7px 16px -8px #000000;
+    box-shadow: 0px 7px 16px -8px #000000;
+}
+
+.navbar a {
+    color: #000;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 608px;
+    max-height: 600px;
 }
