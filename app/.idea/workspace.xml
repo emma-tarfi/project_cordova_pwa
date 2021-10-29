@@ -20,21 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b225f687-ac9a-4063-91fc-8362cab22d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/api/tops.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/logos/144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/tops/top_akatsuki.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/tops/top_assassination_classroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/tops/top_fiber_carbon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/tops/top_flower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/tops/top_thermoregulator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/js/tops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/offline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/sw.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../YnovDevWebMobile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

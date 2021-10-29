@@ -1,0 +1,35 @@
+#list .card {
+    display: inline;
+    margin-bottom: 40px;
+    max-height: 600px;
+}
+
+#list .card-body {
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #c17503;
+    -webkit-box-shadow: 0px 7px 16px -8px #000000;
+    box-shadow: 0px 7px 16px -8px #000000;
+}
+
+.modal-header {
+    background-color: #c17503;
+}
+
+.modal-body {
+    background-color: #f3f3f3;
+}
+
+.modal-footer {
+    background-color: #dfdfdf;
+}
+
+.card-text {
+    text-transform: capitalize;
+}
+
+.navbar a {
+    color: #000;
+}

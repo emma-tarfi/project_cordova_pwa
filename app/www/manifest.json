@@ -1,6 +1,6 @@
 {
-  "name": "Best top creation app",
-  "short_name": "Top creation",
+  "name": "Best top list app",
+  "short_name": "Top app",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#ffff",

@@ -40,6 +40,7 @@
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/override.css">
         <link
                 href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
                 rel="stylesheet"
@@ -51,25 +52,36 @@
                 integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
                 crossorigin="anonymous"
         ></script>
-        <title>Best top creation</title>
+        <script type="text/javascript" src="jquery/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+        <title>My tops</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"
-                ><img src="img/logo.png" />Best top creation app</a>
+                ><img src="img/logo.png" />TOP</a>
             </div>
         </nav>
         <main class="container-fluid">
-            <div class="row">
-                <div class="col" id="title-list">
-                    <h1>Top last tops</h1>
-                </div>
-            </div>
-            <div class="row" id="list"></div>
+          <div id="modal-form-subject-html"></div>
+          <div id="modal-form-item-html"></div>
+          <div id="modal-top-list-html"></div>
+          <div class="row">
+              <div class="col" id="title-list">
+                  <h1>My top list</h1>
+                  <button type="button" id="btn-form" class="btn btn-warning btn-with-image" data-bs-toggle="modal" data-bs-target="#modal-form-top-subject">
+                      <span class="iconButton icon-nu-plus" aria-hidden="true"></span> Create top
+                  </button>
+              </div>
+          </div>
+          <button type="button" id="btn-top-1" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal-list-top">
+            My top tee shirt
+          </button>
+          <script type="text/javascript" src="cordova.js"></script>
+          <script type="text/javascript" src="js/plugins.js"></script>
+          <script type="text/javascript" src="js/native.js"></script>
+          <script type="text/javascript" src="js/index.js"></script>
         </main>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/tops.js"></script>
     </body>
 </html>
