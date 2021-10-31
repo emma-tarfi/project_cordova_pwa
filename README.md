@@ -70,6 +70,19 @@ $ cordova platform add browser
 
 once the emulator is launched, execute this :
 
+For Android on android studio :
 ```bash
 $ cordova emulate android
+```
+
+For Browser :
+```bash
+$ cordova emulate browser
+```
+
+In each modification :
+```bash
+$ cordova build android
+or
+$ cordova build browser
 ```
