@@ -1,5 +1,3 @@
-const deviceReady = () => {};
-
 $('#btn-top-0').on('click', function(e){
     e.preventDefault();
     getDataExemple();
@@ -25,7 +23,7 @@ function getDataExemple() {
                 <div class="col-12 col-md-4">
                     <div onclick="openInAppBrowser('` + item.link + `')">
                         <div class="card">
-                        <img src="` + item.img + `" class="card-img-top" />
+                        <img src="` + item.file + `" class="card-img-top" />
                         <div class="card-body">
                             <h6 class="card-title">` + cpt  + `. ` + item.title + `</h6>
                             <p class="card-text">
