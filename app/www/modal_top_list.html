@@ -1,17 +1,84 @@
 <!-- Modal list top -->
 <div class="modal fade" id="modal-list-top" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modal-list-topLabel"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-list-topLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row" id="list"></div>
+        <button type="button" id="btn-form-top-item" class="btn btn-light rounded-circle" onclick="displayFormItem()">
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="row" id="form-item" style="display: none;">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="title" class="form-label">Title *</label>
+              <input type="text" class="form-control" id="title" maxlength="20" placeholder="Title..." required>
+            </div>
+            <div class="col-md-4">
+              <label for="subject" class="form-label">Subject *</label>
+              <input type="text" class="form-control" id="subject" readonly required>
+            </div>
+            <div class="col-md-4">
+              <label for="description" class="form-label">Description *</label>
+              <input type="text" class="form-control" id="description" maxlength="20" placeholder="Description" required>
+            </div>
+            <div class="col-md-4">
+              <label for="link" class="form-label">Link of the image</label>
+              <input type="text" class="form-control" id="link" placeholder="Link...">
+            </div>
+            <div class="col-md-4">
+              <label for="file" class="form-label">Image</label>
+              <input type="file" class="form-control-file" id="file" onchange="readURL(this);">
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-secondary" onclick="hideFormItem()">Cancel</button>
+              <button class="btn btn-warning" type="submit">Add</button>
+            </div>
+          </form>
         </div>
-        <div class="modal-body">
-          <div class="row" id="list"></div>
-          <button type="button" id="btn-top-1" class="btn btn-light" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modal-form-top-item">
-            Add
-          </button>
-        </div>
+      </div>
+      <div class="modal-footer" id="subject-footer">
+        <button type="button" id="btn-delete-top" class="btn btn-danger" onclick="onclickDeleteTop()">Delete the top (Are you sure ?)</button>
       </div>
     </div>
   </div>
+</div>
+
+<script>
+  (function () {
+    'use strict';
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+    var isValid = false;
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+            form.classList.add('was-validated');
+          } else {
+            event.preventDefault();
+            onClickUpdateTop();
+            hideFormItem();
+            isValid = true;
+            event.stopPropagation();
+          }
+  
+        }, isValid);
+      });
+  })();
+
+  function displayFormItem(){
+    $('#form-item').css('display', 'block');
+  }
+
+  function hideFormItem(){
+    $('#form-item').css('display', 'none');
+  }
+</script>

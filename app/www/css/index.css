@@ -121,3 +121,16 @@ img {
 label {
     text-transform: capitalize;
 }
+
+.row-btn-subject .row {
+    padding: 15px;
+}
+
+.btn-subject {
+    height: 100px!important;
+    width: 500px!important;
+    margin: 0 auto!important;
+    display: flow-root!important;
+    -webkit-box-shadow: 0px 0px 9px -3px #000000!important;
+    box-shadow: 0px 0px 9px -3px #000000!important;
+}
