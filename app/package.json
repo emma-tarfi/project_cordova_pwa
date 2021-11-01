@@ -26,8 +26,8 @@
       "cordova-plugin-inappbrowser": {}
     },
     "platforms": [
-      "android",
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }

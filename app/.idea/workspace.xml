@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b225f687-ac9a-4063-91fc-8362cab22d18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/sw.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -89,10 +85,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1055" y="100" width="772" height="847" key="AVDManager" timestamp="1635493459608">
+    <state x="1055" y="100" width="772" height="847" key="AVDManager" timestamp="1635780630114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1055" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1635493459608" />
+    <state x="1055" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1635780630114" />
     <state x="540" y="274" key="AndroidCreateResourceDirectoryDialog" timestamp="1635490833195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -101,10 +97,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1635488306479" />
-    <state x="880" y="97" key="SettingsEditor" timestamp="1635493027464">
+    <state x="880" y="97" key="SettingsEditor" timestamp="1635780324184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1635493027464" />
+    <state x="880" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1635780324184" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1635494085226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
