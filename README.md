@@ -1,5 +1,5 @@
 # project_cordova_pwa
-Master's degree 2 [Expert in web development] - University project - Top t-shirt creation mobile application for Android and PWA
+Master's degree 2 [Expert in web development] - University project - Top list creation mobile application for Android and PWA
 
 
 ## Links
@@ -7,6 +7,8 @@ Master's degree 2 [Expert in web development] - University project - Top t-shirt
 - Download Android Studio : https://developer.android.com/studio
 - Download JDK : https://www.oracle.com/fr/java/technologies/javase/javase8-archive-downloads.html
 - OneSignal (For notifications) : https://onesignal.com/
+- Plugins : https://cordova.apache.org/docs/en/10.x/guide/hybrid/plugins/index.html
+
 
 ## Installation
 
