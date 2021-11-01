@@ -1,5 +1,5 @@
 /** VARS */
-const ORIGIN_URL = `${location.protocol}`;
+const ORIGIN_URL = `${location.protocol}//${location.host}`;
 const CACHE_NAME = "offline";
 const OFFLINE_URL = "offline.html";
 const CACHED_FILES = [

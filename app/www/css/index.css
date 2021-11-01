@@ -111,30 +111,26 @@ h1 {
     padding: 20px;
 }
 
-#list .card {
-    display: inline;
-    margin-bottom: 20px;
-    max-height: 600px;
-}
-
-#list .card-body {
-    max-height: 80px;
-    background-color: #f7f7f7;
-}
-
-.navbar {
-    background-color: #c17503;
-    -webkit-box-shadow: 0px 7px 16px -8px #000000;
-    box-shadow: 0px 7px 16px -8px #000000;
-}
-
-.navbar a {
-    color: #000;
-}
-
 img {
     height: auto;
     width: auto;
     max-width: 608px;
-    max-height: 600px;
+    max-height: 340px;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.row-btn-subject .row {
+    padding: 15px;
+}
+
+.btn-subject {
+    height: 100px!important;
+    width: 500px!important;
+    margin: 0 auto!important;
+    display: flow-root!important;
+    -webkit-box-shadow: 0px 0px 9px -3px #000000!important;
+    box-shadow: 0px 0px 9px -3px #000000!important;
 }
