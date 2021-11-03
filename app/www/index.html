@@ -5,8 +5,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
         <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
         <link rel="manifest" href="manifest.json" />
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
         <script>
-          window.addEventListener("load", () => {
+            window.addEventListener("load", () => {
             if ("cordova" in window) {
             } else {
               if ("serviceWorker" in navigator) {
@@ -15,6 +16,21 @@
                   .then(function (reg) {});
               }
             }
+          });
+
+          var OneSignal = window.OneSignal || [];
+          var initConfig = {
+            appId: "897efe71-35bd-405a-ba48-84dc1a7317d8",
+            notifyButton: {
+              enable: true,
+            },
+          };
+          OneSignal.push(function () {
+            OneSignal.SERVICE_WORKER_PARAM = { scope: "push/onesignal/" };
+            OneSignal.SERVICE_WORKER_PATH = "push/onesignal/OneSignalSDKWorker.js";
+            OneSignal.SERVICE_WORKER_UPDATER_PATH =
+              "push/onesignal/OneSignalSDKUpdaterWorker.js";
+            OneSignal.init(initConfig);
           });
         </script>
         <meta name="format-detection" content="telephone=no">
@@ -49,8 +65,9 @@
         </nav>
         <main class="container-fluid">
           <div id="modal-form-subject-html"></div>
-          <div id="modal-form-item-html"></div>
           <div id="modal-top-list-html"></div>
+          <div id="modal-welcome-html"></div>
+          <div id="modal-alert-network-html"></div>
           <div class="row">
               <div class="col" id="title-list">
                   <h1>My top list</h1>
@@ -67,7 +84,12 @@
             </div>
           </div>  
           <div class="row row-btn-subject" id="tops-subject">
-          </div>     
+          </div>  
+          <script type="text/javascript">
+            $(window).on('load', function() {
+              $('#modal-welcome').modal('show');
+            });
+        </script>  
           <script type="text/javascript" src="cordova.js"></script>
           <script type="text/javascript" src="js/plugins.js"></script>
           <script type="text/javascript" src="js/native.js"></script>
