@@ -106,3 +106,8 @@ For open link in app browser :
 ```bash
 cordova plugin add cordova-plugin-inappbrowser
 ```
+
+For network information :
+```bash
+cordova plugin add cordova-plugin-network-information
+```
