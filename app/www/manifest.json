@@ -1,7 +1,7 @@
 {
-  "name": "My top list app",
+  "name": "My top list",
   "short_name": "Top app",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#ffff",
   "icons": [

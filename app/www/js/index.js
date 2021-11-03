@@ -8,9 +8,10 @@ var app = {
       this.onDeviceReady.bind(this),
       false
     );
-
     $('#modal-form-subject-html').load('modal_form_top_subject.html');
     $('#modal-top-list-html').load('modal_top_list.html');
+    $('#modal-welcome-html').load('modal_welcome.html');
+    $('#modal-alert-network-html').load('modal_alert_network_info.html');
     getTopsSubject();
   },
 

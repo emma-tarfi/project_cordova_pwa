@@ -1,0 +1,44 @@
+<!-- Modal welcome -->
+<div class="modal fade" id="modal-welcome">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-welcome-topLabel">Welcome ! &#128512</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <p><strong>MyTopList</strong> est une application de création de Top ! Tu pourras :</p>
+            <ul>
+              <li>Installer l'application sur ton ordi (PWA)</li>
+              <li>Trouver un exemple de top (clique sur les images &#128540)</li>
+              <li>Créer un sujet de top via le bouton "+" en haut à gauche de l'app</li>
+              <li>Ajouter des éléments dans le top crée (Titre, description, lien du site de l'image, image)</li>
+              <li>Supprimer un top</li>
+              <li>Trouver une page offline</li>
+              <li>Trouver des plugins (Les tests se font mieux sur un emulateur android):
+                <ul>
+                  <li><strong>Battery status</strong> : Affiche une alerte du pourcentage de la batterie de l'appareil lors du démarrage de l'app.</li>
+                  <li><strong>Battery low</strong> : Affiche une alerte lorsque le pourcentage de la batterie de l'appareil est faible.</li>
+                  <li><strong>Battery critical</strong> : Affiche une alerte lorsque le pourcentage de la batterie de l'appareil est critique.</li>
+                  <li><strong>Open link page in app</strong> : Ouvre le lien du site de l'image directement dans l'app.</li>
+                  <li><strong>Network information</strong> : Affiche une notification au démarrage de l'app pour informer l'user du status de la connexion ou dès que la connexion change. <strong>A tester sur android car plugin non compatible avec browser !</strong></li>
+                </ul>
+              </li>
+              <li>Recevoir des notifications (Souscris-toi et autorises les notifications pour en recevoir !)<strong> Restes connecté sur l'app pendant environ 20 min pour en recevoir une.</strong></li>
+            </ul>
+            <p>Ouvres le dossier <strong>"app"</strong> et lance <strong><i>cordova emulate browser (ou android)</i></strong> pour activer les plugins.</p>
+            <p>Ouvres le dossier <strong>"www"</strong> et lance <strong><i>live server</i></strong> pour installer l'app (PWA), accéder à la page offline et recevoir des notifications.</p>
+            <p><i>PS : Tu risques de recevoir des notifications toutes les deux heures une fois l'app fermée. Informes-moi si tu ne veux plus en recevoir &#128517</i></p>
+            <p>Amuses-toi bien ! &#128526</p><br />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" id="btn-create-top" class="btn btn-warning" data-bs-dismiss="modal">Ok !</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +24,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b225f687-ac9a-4063-91fc-8362cab22d18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/modal_alert_network_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/native.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -50,13 +62,13 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emma.tarfi\Documents\Emma\Ecole\Ynov\Web_mobile\project_cordova_pwa\app\www" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\emma.tarfi\Documents\Emma\Ecole\Ynov\Web_mobile\project_cordova_pwa\app\www\img\tops" />
       <recent name="C:\Users\emma.tarfi\Documents\Emma\Ecole\Ynov\Web_mobile\project_cordova_pwa\app\www\img" />
       <recent name="C:\Users\emma.tarfi\Documents\Emma\Ecole\Ynov\Web_mobile\project_cordova_pwa\app\www\img\logos" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\emma.tarfi\Documents\Emma\Ecole\Ynov\Web_mobile\project_cordova_pwa\app\www" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -72,6 +84,9 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -85,9 +100,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1055" y="100" width="772" height="847" key="AVDManager" timestamp="1635780630114">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="4254" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635944628877">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
+    <state x="4254" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635944628877" />
+    <state x="4895" y="100" width="772" height="847" key="AVDManager" timestamp="1635947316678">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4895" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635947316678" />
     <state x="1055" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1635780630114" />
     <state x="540" y="274" key="AndroidCreateResourceDirectoryDialog" timestamp="1635490833195">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -97,9 +117,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1635488306479" />
-    <state x="880" y="97" key="SettingsEditor" timestamp="1635780324184">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1635945489908">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635945489908" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1635945489908">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635945489908" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1635945489908">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635945489908" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1635945489908">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635945489908" />
+    <state x="4720" y="97" key="SettingsEditor" timestamp="1635944617207">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4720" y="97" key="SettingsEditor/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635944617207" />
     <state x="880" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1635780324184" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1635494085226">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -163,7 +163,6 @@ function onClickUpdateTop() {
 
 //Delete the top
 function onclickDeleteTop() {
-    debugger;
     var arrayTopsItem = [];
     var arrayTopsSubject = [];
 
