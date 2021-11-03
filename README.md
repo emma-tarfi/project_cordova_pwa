@@ -88,3 +88,21 @@ $ cordova build android
 or
 $ cordova build browser
 ```
+
+
+## Plugins
+
+For screen orientation :
+```bash
+cordova plugin add cordova-plugin-screen-orientation
+```
+
+For battery status :
+```bash
+cordova plugin add cordova-plugin-battery-status
+```
+
+For open link in app browser :
+```bash
+cordova plugin add cordova-plugin-inappbrowser
+```
