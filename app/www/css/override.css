@@ -18,6 +18,10 @@
     background-color: #c17503;
 }
 
+#modal-disconnect .modal-header {
+    background-color: #900404;
+}
+
 .modal-body {
     background-color: #f3f3f3;
 }

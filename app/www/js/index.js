@@ -12,6 +12,7 @@ var app = {
     $('#modal-top-list-html').load('modal_top_list.html');
     $('#modal-welcome-html').load('modal_welcome.html');
     $('#modal-alert-network-html').load('modal_alert_network_info.html');
+    $('#modal-disconnect-html').load('modal_disconnect.html');
     getTopsSubject();
   },
 

@@ -7,22 +7,22 @@ const openInAppBrowser = (link) => {
 };
 
 //Alert battery low
-function onBatteryLow(status) {
+const onBatteryLow = (status) => {
   alert("Battery Level Low " + status.level + "%");
 }
 
 //Alert battery critical
-function onBatteryCritical(status) {
+const onBatteryCritical = (status) => {
   alert("Battery Level Critical " + status.level + "%\nRecharge Soon!");
 }
 
 //Alert battery status
-function onBatteryStatus(status) {
+const onBatteryStatus = (status) => {
   alert("Battery Level " + status.level + "%");
 }
 
-//Alert information connection
-function checkConnection() {
+//Alert information connection and block app if offline
+const checkConnection = (showModal) => {
   var networkState = navigator.connection.type;
 
   var states = {};
@@ -34,17 +34,22 @@ function checkConnection() {
   states[Connection.CELL_4G]	= 'Cell 4G connection';
   states[Connection.NONE]   	= 'No network connection';
 
-    $('#modal-alert-network .toast-body').html('Type: ' + states[networkState]);
-    $('#modal-alert-network').toast('show');
-}
+  if(showModal){
+    $('#modal-disconnect').modal('show');
+  } else {
+    $('#modal-disconnect').modal('hide');
+  }
+
+  $('#modal-alert-network .toast-body').html('Type: ' + states[networkState]);
+  $('#modal-alert-network').toast('show');
+};
 
 const deviceReady = () => {
-  //Allow user to rotate screen
   window.screen.orientation.unlock();
   window.addEventListener("batterylow", onBatteryLow, false);
   window.addEventListener("batterycritical", onBatteryCritical, false);
   window.addEventListener("batterystatus", onBatteryStatus, false);
-  document.addEventListener("offline", checkConnection, false);
-  document.addEventListener("online", checkConnection, false);
+  document.addEventListener("offline", () => checkConnection(true), false);
+  document.addEventListener("online", () => checkConnection(false), false);
   checkConnection();
 };
