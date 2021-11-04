@@ -12,7 +12,7 @@
             <p><strong>MyTopList</strong> est une application de création de Top ! Tu pourras :</p>
             <ul>
               <li>Installer l'application sur ton ordi (PWA)</li>
-              <li>Trouver un exemple de top (clique sur les images &#128540) <i>(Non modifiable car il s'agit d'un exemple)</i></li>
+              <li>Trouver un exemple de top (clique sur les images &#128540 - <i>Exemple non modifiable</i>)</li>
               <li>Créer un sujet de top via le bouton "+" en haut à gauche de l'app</li>
               <li>Ajouter des éléments dans le top crée (Titre, description, lien du site de l'image, image)</li>
               <li>Supprimer un top</li>
@@ -24,14 +24,20 @@
                   <li><strong>Battery critical</strong> : Affiche une alerte lorsque le pourcentage de la batterie de l'appareil est critique.</li>
                   <li><strong>Open link page in app</strong> : Ouvre le lien du site de l'image directement dans l'app.</li>
                   <li><strong>Network information</strong> : Affiche une notification au démarrage de l'app pour informer l'user du status de la connexion ou dès que la connexion change. <strong>A tester sur android pour voir les différentes informations de connexion car plugin non compatible avec browser !</strong></li>
-                  <li><strong>Modal block app</strong> : Bloque l'application avec une modal lorsqu'on est déconnecté.</li>
+                  <li><strong>Modal block app</strong> : Bloque l'application avec une modal lorsqu'on est hors ligne.</li>
                 </ul>
               </li>
-              <li>Recevoir des notifications (Souscris-toi et autorises les notifications pour en recevoir !)<strong> Restes connecté sur l'app pendant environ 20 min pour en recevoir une.</strong></li>
+              <li>Recevoir des notifications (Souscris-toi et autorises les notifications pour en recevoir !) :
+                <ul>
+                  <li>Lorsque tu te souscris aux notifications, tu devrais reçevoir une notification de bienvenue.</li>
+                  <li>Une fois souscris, quand tu quitteras l'app, tu reçevras des notifications toutes les deux heures environs. Informes-moi lorsque tu auras terminé d'évaluer le projet pour ne plus en reçevoir &#128517</li>
+                  <li>Quand tu retourneras sur l'app (si t'es souscris), tu reçevras une notification. Pour en être sûr, restes connecté une bonne dizaine de minutes pour la reçevoir.</li>
+                </ul>
+              </li>
             </ul>
             <p>Ouvres le dossier <strong>"app"</strong> et lance <strong><i>cordova emulate browser (ou android)</i></strong> pour activer les plugins.</p>
             <p>Ouvres le dossier <strong>"www"</strong> et lance <strong><i>live server</i></strong> pour installer l'app (PWA), accéder à la page offline et recevoir des notifications.</p>
-            <p><i>PS : Tu risques de recevoir des notifications toutes les deux heures une fois l'app fermée. Informes-moi si tu ne veux plus en recevoir &#128517</i></p>
+            <p><i>PS : il faudrait que tu configures localhost en 127.0.0.1 pour recevoir les notifications.</i></p>
             <p>Amuses-toi bien ! &#128526</p><br />
           </div>
         </div>
