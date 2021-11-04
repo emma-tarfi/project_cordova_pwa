@@ -25,8 +25,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b225f687-ac9a-4063-91fc-8362cab22d18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/plugins.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +95,11 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4254" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635944628877" />
-    <state x="1055" y="100" width="772" height="847" key="AVDManager" timestamp="1636015392249">
+    <state x="1055" y="100" width="772" height="847" key="AVDManager" timestamp="1636019300841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="4895" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1635947316678" />
-    <state x="1055" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1636015392249" />
+    <state x="1055" y="100" width="772" height="847" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1636019300841" />
     <state x="540" y="274" key="AndroidCreateResourceDirectoryDialog" timestamp="1635490833195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
